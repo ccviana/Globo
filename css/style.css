@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("logo-globo-10.png");
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+}
+img{
+    width:40px;
+}
+input[type=checkbox]
+{
+    display: none;
+}
+nav{
+    background-color: rgba(16, 16, 16, 0.5);
+    width:350px;
+    height:100%;
+    left:-350px;
+    position: absolute;
+   /*  transition: all .5s; */
+} 
+
+input[type="checkbox"]:checked ~ nav
+{
+        transform: translateX(350px);
+}
+ul{ 
+    background-color: blue;
+    top:70px;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+    display:block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(176,224,230);
+    color:Black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;   
+}
+
+
+
+/* h1 {
+/*    color: blue;
+/*    text-align: center;
+/*    font-size: 80px;
+/*}
+
+/*h2 {
+/*         color:brown;
+        
+
+/* } */
